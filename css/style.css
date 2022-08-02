@@ -4,8 +4,6 @@ body {
   margin: 0;
   width: 210mm;
   height: 297mm;
-  /* width: 100vw; */
-  /* height: 100vh; */
 }
 h3,
 h4,
@@ -21,7 +19,6 @@ a {
   .Main-conteiner {
     min-width: 320px;
     background: #f3ece3;
-    /* margin: 20px auto; */
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   }
   .Main-content-sections {
@@ -32,13 +29,13 @@ a {
     font-weight: bold;
     font-size: 28px;
     line-height: 22px;
-    color: #000000;
+    color: #2f2f2f;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   /*Abowt me section  */
   .Abowt-me-section {
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
   }
 
   .Abowt-me-profession {
@@ -46,7 +43,6 @@ a {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    /* color: #000; */
     color: #fb6d3a;
     margin: 0 0 10px 0;
   }
@@ -56,7 +52,7 @@ a {
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    color: #000;
+    color: #2f2f2f;
     margin: 0 0 20px 0;
   }
   .Abowt-me-description {
@@ -66,12 +62,13 @@ a {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: #595959;
+    color: #202020;
+    margin-bottom: 30px;
   }
 
   /*My projects section  */
   .My-projects-section {
-    margin: 0 0 20px 0;
+    margin: 0 0 30px 0;
   }
 
   .My-projects-list {
@@ -79,7 +76,7 @@ a {
   }
 
   .My-projects-item {
-    color: #000;
+    color: #2f2f2f;
     font-weight: bold;
   }
   .My-projects-link {
@@ -87,29 +84,26 @@ a {
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
-    color: #595959;
-    /* color: #fb6d3a; */
+    color: #2f2f2f;
   }
   .My-projects-text {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* margin-left: 5px; */
-    color: #595959;
+    color: #2f2f2f;
   }
   .My-projects-bracket {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 22px;
-    color: #000000;
+    color: #2f2f2f;
   }
 
   /*My work experience section  */
   .My-work-experience-company {
     color: #fb6d3a;
-    /* color: #000000; */
   }
   .My-work-experience-position {
     display: flex;
@@ -119,19 +113,18 @@ a {
     font-size: 16px;
     line-height: 20px;
     margin: 0 0 10px 0;
-    color: #000000;
-    /* color: #fb6d3a; */
+    color: #2f2f2f;
   }
   .My-work-experience-period {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #a8a8a8;
+    color: #666464;
     margin: 0 0 10px 0;
   }
   .My-work-experience-divider {
-    color: #000000;
+    color: #2f2f2f;
     margin: 0 10px 0 10px;
   }
   .My-work-experience-duties {
@@ -153,7 +146,6 @@ a {
 
   /*My Education section  */
   .My-Education-section {
-    /* width: 525px; */
     width: auto;
   }
   .My-Education-university {
@@ -177,7 +169,7 @@ a {
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #a8a8a8;
+    color: #666464;
   }
 
   /*Sidebar section  */
@@ -186,12 +178,7 @@ a {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    /* background-color: #63666f; */
-    /* background-color: #a4a9bd; */
     background-color: #c3cae7;
-    /* background-color: #b2c3bd; */
-    /* width: 30%; */
-    /* width: 370px; */
     padding: 20px 20px;
   }
   .Sidebar-photo {
@@ -219,7 +206,6 @@ a {
   }
   .Contact-section-tipe {
     display: flex;
-    /* width: 30%; */
     font-weight: bold;
     font-size: 14px;
     line-height: 22px;
@@ -227,8 +213,6 @@ a {
     margin-right: 7px;
   }
   .Contact-section-link {
-    /* color: #565E6A; */
-    /* width: 70%; */
     color: #63666f;
     font-style: normal;
     font-weight: normal;
@@ -313,15 +297,13 @@ a {
   }
   .Contact-section-tipe {
     display: block;
-    /* width: 30%; */
     margin-right: 0px;
   }
   .Contact-section-link {
     display: block;
   }
-
-  /* Tech-Skills section */
 }
+/* Tech-Skills section */
 @media screen and (min-width: 1200px) {
   .Main-conteiner {
     width: 100%;
@@ -329,12 +311,9 @@ a {
     display: flex;
     flex-direction: row-reverse;
     background: #f3ece3;
-    /* margin: 40px auto; */
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   }
 
-  /* background: #e9dfd2; */
-  /* } */
   .Main-content-sections {
     width: 80%;
     padding: 20px 20px;
@@ -345,7 +324,7 @@ a {
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
+    color: #2f2f2f;
     margin-bottom: 10px;
   }
   /*Abowt me section  */
@@ -359,8 +338,6 @@ a {
     font-weight: bold;
     font-size: 20px;
     line-height: 17px;
-    /* color: #000; */
-
     margin: 0 0 10px 0;
   }
 
@@ -369,7 +346,7 @@ a {
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
-    color: #000;
+    color: #2f2f2f;
     margin: 0 0 10px 0;
   }
   .Abowt-me-description {
@@ -393,20 +370,17 @@ a {
   }
 
   .My-projects-item {
-    color: #000;
-    font-weight: bold;
+    color: #2f2f2f;
+    /* font-weight: bold; */
     margin-bottom: 10px;
   }
   .My-projects-link {
     display: block;
-    /* display: flex;
-    flex-direction: row; */
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
     color: #595959;
-    /* color: #fb6d3a; */
   }
   .My-projects-text {
     display: block;
@@ -422,13 +396,12 @@ a {
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    color: #000000;
+    color: #2f2f2f;
   }
 
   /*My work experience section  */
   .My-work-experience-company {
     color: #fb6d3a;
-    /* color: #000000; */
   }
   .My-work-experience-position {
     font-style: normal;
@@ -436,19 +409,18 @@ a {
     font-size: 14px;
     line-height: 20px;
     margin: 10px 0 10px 0;
-    color: #000000;
-    /* color: #fb6d3a; */
+    color: #2f2f2f;
   }
   .My-work-experience-period {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    color: #a8a8a8;
+    color: #666464;
     margin: 0 0 10px 0;
   }
   .My-work-experience-divider {
-    color: #000000;
+    color: #2f2f2f;
     margin: 0 10px 0 10px;
   }
   .My-work-experience-duties {
@@ -471,7 +443,6 @@ a {
 
   /*My Education section  */
   .My-Education-section {
-    /* width: 525px; */
     width: auto;
   }
   .My-Education-university {
@@ -496,7 +467,7 @@ a {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    color: #a8a8a8;
+    color: #666464;
   }
 
   /*Sidebar section  */
@@ -505,7 +476,6 @@ a {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    /* background-color: #a4a9bd; */
     background-color: #75b19c;
     width: 20%;
     padding: 30px 30px;
@@ -545,8 +515,7 @@ a {
   }
   .Contact-section-link {
     width: 70%;
-    color: #63666f;
-    color: #000;
+    color: #2f2f2f;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
